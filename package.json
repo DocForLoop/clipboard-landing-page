@@ -1,0 +1,25 @@
+{
+  "name": "clipboard-landing-page",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This is a solution to the clipboard landing page challenge on Frontend Mentor",
+  "author": "Csaba Molnar (DocForLoop)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "sass": "^1.84.0",
+    "vite": "^6.1.0"
+  }
+}
