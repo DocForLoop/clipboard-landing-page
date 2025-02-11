@@ -1,0 +1,63 @@
+html {
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body-text-2);
+    font-weight: var(--fw-1);
+    line-height: var(--lh-secondary);
+    letter-spacing: var(--ls-body-1);
+    color: var(--clr-text-secondary);
+}
+
+h1, h2, h3 {
+    color: var(--clr-text-primary);
+    font-weight: var(--fw-2);
+}
+
+h1 {
+    font-size: var(--fs-h1);
+    line-height: var(--lh-primary);
+    letter-spacing: var(--ls-h1);
+}
+
+h2 {
+    font-size: var(--fs-h2);
+    letter-spacing: var(--ls-h2);
+}
+
+h3 {
+    font-size: var(--fs-h3);
+    letter-spacing: var(--ls-h3);
+}
+
+p, li, figcaption {
+    text-wrap: pretty;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-inline-size: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
+a, a:visited, a:active {
+    text-decoration: none;
+}
