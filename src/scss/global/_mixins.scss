@@ -1,13 +1,11 @@
 @use './functions' as *;
 
-@mixin button($bg-color, $pad-inline) {
+@mixin button {
     color: var(--clr-text-light);
     font-size: var(--fs-button);
     font-weight: var(--fw-2);
     line-height: var(--lh-secondary);
     letter-spacing: var(--ls-button);
     border-radius: rem(28);
-    background-color: $bg-color;
     padding-block: 13px;
-    padding-inline: $pad-inline;
 }
