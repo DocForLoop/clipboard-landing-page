@@ -1,2 +1,97 @@
 @use '@scss/global/functions' as *;
 @use '@scss/global/mixins' as m;
+
+.main {
+    padding-inline: 32px;
+    padding-block-end: 170px;
+    text-align: center;
+}
+
+.snippets {
+    margin-block-end: 56px;
+
+    &__desc {
+        max-inline-size: 63ch;
+    }
+
+    &__img {
+        block-size: auto;
+        inline-size: 100%;
+        max-inline-size: rem(752);
+    }
+
+    &__feature-desc {
+        max-inline-size: 33ch;
+    }
+}
+
+.access {
+
+    &__img {
+        block-size: auto;
+        inline-size: 100%;
+        max-inline-size: rem(812);
+    }
+
+    &__desc {
+        max-inline-size: 64ch;
+    }
+}
+
+.workflow {
+
+    &__paper-img {
+        inline-size: rem(44);
+        block-size: rem(40);
+    }
+
+    &__letter-img {
+        inline-size: rem(36);
+        block-size: rem(32);
+    }
+
+    &__eye-img {
+        inline-size: rem(50);
+        block-size: rem(32);
+    }
+
+    &__tool-desc {
+        max-inline-size: 35ch;
+    }
+}
+
+.partners {
+    margin-block-end: 39px;
+
+    &__google-img {
+        inline-size: rem(139);
+        block-size: rem(41);
+    }
+
+    &__ibm-img {
+        inline-size: rem(122);
+        block-size: rem(40);
+    }
+
+    &__ms-img {
+        inline-size: rem(135);
+        block-size: rem(32);
+    }
+
+    &__hp-img {
+        inline-size: rem(113);
+        block-size: rem(47);
+    }
+
+    &__vg-img {
+        inline-size: rem(105);
+        block-size: rem(25);
+    }
+}
+
+.download {
+    
+    &__desc {
+        max-inline-size: 63ch;
+    }
+}

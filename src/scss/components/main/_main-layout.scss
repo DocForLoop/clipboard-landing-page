@@ -1,1 +1,108 @@
 @use '@scss/global/functions' as *;
+
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 131px;
+}
+
+.snippets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: fluid(65, 80, 375, 1440);
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+    }
+
+    &__lists {
+        display: flex;
+        flex-direction: column;
+        row-gap: 56px;
+    }
+
+    &__features {
+        display: flex;
+        flex-direction: column;
+        row-gap: fluid(48, 56, 375, 1440);
+    }
+
+    &__feature {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+}
+
+.access {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: fluid(64, 110, 375, 1440);
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        row-gap: fluid(16, 19, 375, 1440);
+    }
+}
+
+.workflow {
+    display: flex;
+    flex-direction: column;
+    row-gap: 90px;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        row-gap: fluid(11, 19, 375, 1440);
+    }
+
+    &__tools {
+        display: flex;
+        flex-direction: column;
+        row-gap: 56px;
+    }
+
+    &__tool {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 44px;
+    }
+    
+    &__tool-content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 18px;
+    }
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 66px;
+    }
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 46px;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+    }
+}

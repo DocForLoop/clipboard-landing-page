@@ -19,10 +19,10 @@
         align-items: center;
         row-gap: 16px;
     }
-    
-    &__buttons {
-        display: flex;
-        flex-direction: column;
-        row-gap: 24px ;
-    }
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px ;
 }

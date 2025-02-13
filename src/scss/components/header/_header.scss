@@ -17,7 +17,6 @@ body {
         overflow: clip;
 
         &:focus-visible {
-            position: absolute;
             inset-inline-start: 0;
             inline-size: fit-content;
             block-size: fit-content;

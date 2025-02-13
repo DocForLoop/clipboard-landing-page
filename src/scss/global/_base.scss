@@ -33,11 +33,17 @@ h1 {
 h2 {
     font-size: var(--fs-h2);
     letter-spacing: var(--ls-h2);
+    line-height: normal;
 }
 
 h3 {
     font-size: var(--fs-h3);
     letter-spacing: var(--ls-h3);
+    line-height: normal;
+}
+
+ul {
+    list-style: none;
 }
 
 p, li, figcaption {
@@ -51,10 +57,6 @@ img, picture, video, canvas, svg {
 
 p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    text-wrap: balance;
 }
 
 a, a:visited, a:active {

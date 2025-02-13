@@ -37,106 +37,134 @@
               copy. Instantly access your clipboard on all your devices.
             </p>
           </div>
-          <div class="header__buttons">
+          <div class="buttons">
             <a class="button button--primary" href="#">Download for iOS</a>
             <a class="button button--secondary" href="#">Download for Mac</a>
           </div>
         </section>
       </header>
 
-      <main id="main-content" tabindex="-1">
-        <section aria-labelledby="subhead-keep">
-          <div>
+      <main class="main" id="main-content" tabindex="-1">
+
+        <section class="snippets" aria-labelledby="subhead-keep">
+          <div class="snippets__content">
             <h2 id="subhead-keep">Keep track of your snippets</h2>
-            <p>Clipboard instantly stores any item you copy in the cloud, 
+            <p class="snippets__desc">Clipboard instantly stores any item you copy in the cloud, 
               meaning you can access your snippets immediately on all your 
               devices. Our Mac and iOS apps will help you organize everything.
             </p>
           </div>
-          <div>
-            <img src="/src/assets/images/image-computer.webp" 
+
+          <div class="snippets__lists">
+            <img class="snippets__img" src="/src/assets/images/image-computer.webp" 
             alt="" width="312" height="238" loading="lazy" decoding="async">
-            <div>
-              <section aria-labelledby="quick">
+            <div class="snippets__features">
+              <section class="snippets__feature" aria-labelledby="quick">
                 <h3 id="quick">Quick Search</h3>
-                <p>Easily search your snippets by content, category, web address, application, and more.</p>
+                <p class="snippets__feature-desc">Easily search your snippets by content, category, web address, application, and more.</p>
               </section>
-              <section aria-labelledby="icloud">
+
+              <section class="snippets__feature" aria-labelledby="icloud">
                 <h3 id="icloud">iCloud Sync</h3>
-                <p>Instantly saves and syncs snippets across all your devices.</p>
+                <p class="snippets__feature-desc">Instantly saves and syncs snippets across all your devices.</p>
               </section>
-              <section aria-labelledby="complete">
+
+              <section class="snippets__feature" aria-labelledby="complete">
                 <h3 id="complete">Complete History</h3>
-                <p>Retrieve any snippets from the first moment you started using the app.</p>
+                <p class="snippets__feature-desc">Retrieve any snippets from the first moment you started using the app.</p>
               </section>
+              
             </div>
           </div>
         </section>
 
-        <section aria-labelledby="subhead-access">
-          <div>
+        <section class="access" aria-labelledby="subhead-access">
+          <div class="access__content">
             <h2 id="subhead-access">Access Clipboard anywhere</h2>
-            <p>Whether you’re on the go, or at your computer, you can access all your Clipboard 
+            <p class="access__desc">Whether you’re on the go, or at your computer, you can access all your Clipboard 
               snippets in a few simple clicks.
             </p>
           </div>
-          <img src="/src/assets/images/image-devices.webp" 
-          alt="" width="287" height="182" loading="lazy" decoding="async">
+          <img class="access__img" src="/src/assets/images/image-devices.webp" 
+          alt="" width="311" height="182" loading="lazy" decoding="async">
         </section>
 
-        <section aria-labelledby="subhead-supercharge">
-          <div>
+        <section class="workflow" aria-labelledby="subhead-supercharge">
+
+          <div class="workflow__content">
             <h2 id="subhead-supercharge">Supercharge your workflow</h2>
             <p>We’ve got the tools to boost your productivity.</p>
           </div>
-          <div>
-            <section aria-labelledby="blacklist">
-              <img src="/src/assets/images/icon-blacklist.svg" 
+
+          <div class="workflow__tools">
+
+            <section class="workflow__tool" aria-labelledby="blacklist">
+              <img class="workflow__paper-img" src="/src/assets/images/icon-blacklist.svg" 
               alt="" width="44" height="40" loading="lazy">
-              <div>
+              <div class="workflow__tool-content">
                 <h3 id="blacklist">Create blacklists</h3>
-                <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+                <p class="workflow__tool-desc">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
               </div>
             </section>
-            <section aria-labelledby="snippet">
-              <img src="/src/assets/images/icon-text.svg" 
+
+            <section class="workflow__tool" aria-labelledby="snippet">
+              <img class="workflow__letter-img" src="/src/assets/images/icon-text.svg" 
               alt="" width="36" height="32" loading="lazy">
-              <div>
+              <div class="workflow__tool-content">
                 <h3 id="snippet">Plain text snippets</h3>
-                <p>Remove unwanted formatting from copied text for a consistent look.</p>
+                <p class="workflow__tool-desc">Remove unwanted formatting from copied text for a consistent look.</p>
               </div>
             </section>
-            <section aria-labelledby="preview">
-              <img src="/src/assets/images/icon-preview.svg" 
+
+            <section class="workflow__tool" aria-labelledby="preview">
+              <img class="workflow__eye-img" src="/src/assets/images/icon-preview.svg" 
               alt="" width="50" height="32" loading="lazy">
-              <div>
+              <div class="workflow__tool-content">
                 <h3 id="preview">Sneak preview</h3>
-                <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+                <p class="workflow__tool-desc">Quick preview of all snippets on your Clipboard for easy access.</p>
               </div>
             </section>
+
           </div>
         </section>
 
-        <section aria-label="partners">
-          <ul>
-            <li><img src="/src/assets/images/logo-google.png" alt="Google logo" width="139" height="41" loading="lazy" decoding="async"></li>
-            <li><img src="/src/assets/images/logo-ibm.png" alt="IBM logo" width="139" height="51" loading="lazy" decoding="async"></li>
-            <li><img src="/src/assets/images/logo-microsoft.png" alt="Microsoft logo" width="161" height="35" loading="lazy" decoding="async"></li>
-            <li><img src="/src/assets/images/logo-hp.png" alt="Hewlett Packard logo" width="135" height="56" loading="lazy" decoding="async"></li>
-            <li><img src="/src/assets/images/logo-vector-graphics.png" alt="Vector Graphics logo" width="105" height="25" loading="lazy" decoding="async"></li>
+        <section class="partners" aria-label="partners">
+          <ul class="partners__list">
+            <li>
+              <img class="partners__google-img" src="/src/assets/images/logo-google.png" 
+              alt="Google logo" width="139" height="41" loading="lazy" decoding="async">
+            </li>
+            <li>
+              <img class="partners__ibm-img" src="/src/assets/images/logo-ibm.png" 
+              alt="IBM logo" width="122" height="40" loading="lazy" decoding="async">
+            </li>
+            <li>
+              <img class="partners__ms-img" src="/src/assets/images/logo-microsoft.png" 
+              alt="Microsoft logo" width="135" height="32" loading="lazy" decoding="async">
+            </li>
+            <li>
+              <img class="partners__hp-img" src="/src/assets/images/logo-hp.png" 
+              alt="Hewlett Packard logo" width="113" height="47" loading="lazy" decoding="async">
+            </li>
+            <li>
+              <img class="partners__vg-img" src="/src/assets/images/logo-vector-graphics.png" 
+              alt="Vector Graphics logo" width="105" height="25" loading="lazy" decoding="async">
+            </li>
           </ul>
         </section>
 
-        <section aria-labelledby="subhead-download">
-          <div>
+        <section class="download" aria-labelledby="subhead-download">
+          <div class="download__content">
             <h2 id="subhead-download">Clipboard for iOS and Mac OS</h2>
-            <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
+            <p class="download__desc">Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
               and you’re ready to start adding to your clipboard.</p>
           </div>
-          <div>
-            <a href="#">Download for iOS</a>
-            <a href="#">Download for Mac</a>
+
+          <div class="buttons">
+            <a class="button button--primary" href="#">Download for iOS</a>
+            <a class="button button--secondary" href="#">Download for Mac</a>
           </div>
+
         </section>
       </main>
 
