@@ -1,2 +1,63 @@
 @use '@scss/global/functions' as *;
 @use '@scss/global/mixins' as m;
+
+.footer {
+    text-align: center;
+    padding-block: 52px;
+    background-color: var(--clr-footer-bg);
+
+    &__logo {
+        inline-size: rem(55);
+        block-size: rem(55);
+    }
+
+    &__nav {
+        margin-block-end: 12px;
+    }
+
+    &__link-faq {
+        grid-area: faq;
+    }
+
+    &__link-con {
+        grid-area: con;
+    }
+
+    &__link-pri {
+        grid-area: pri;
+    }
+
+    &__link-pre {
+        grid-area: pres;
+    }
+
+    &__link-ins {
+        grid-area: ins;
+    }
+
+    &__link {
+        font-size: var(--fs-footer);
+        line-height: var(--lh-footer);
+        letter-spacing: var(--ls-body-2);
+        color: var(--clr-text-primary);
+        transition: color 0.3s;
+
+        &:hover, &:focus-visible {
+            color: var(--clr-hover);
+        }
+    }
+
+    &__social-link {
+        color: var(--clr-text-primary);
+        transition: color 0.3s;
+
+        &:hover, &:focus-visible {
+            color: var(--clr-hover);
+        }
+    }
+
+    &__social-icon {
+        inline-size: rem(24);
+        block-size: rem(24);
+    }
+}

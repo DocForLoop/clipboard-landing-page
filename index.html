@@ -10,14 +10,14 @@
 
     <meta property="og:title" content="Clipboard Landing Page | Frontend Mentor Challenge">
     <meta property="og:description" content="Clipboard landing page challenge solution using HTML, Sass & Vite.">
-    <meta property="og:image" content="https:///preview.jpg">
-    <meta property="og:url" content="https:///preview.jpg"/>
+    <!-- <meta property="og:image" content="https:///preview.jpg">
+    <meta property="og:url" content="https:///preview.jpg"/> -->
     <meta property="og:type" content="website">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Clipboard Landing Page | Frontend Mentor Challenge">
     <meta name="twitter:description" content="Clipboard landing page challenge solution using HTML, Sass & Vite.">
-    <meta name="twitter:image" content="https:///preview.jpg">
+    <!-- <meta name="twitter:image" content="https:///preview.jpg"> -->
 
     <script type="module" src="src/main.js" defer></script>
   </head>
@@ -168,26 +168,27 @@
         </section>
       </main>
 
-      <footer>
-        <a href="#"><img src="/src/assets/images/logo.svg" 
-          alt="Home of C" width="45" height="45" loading="lazy" decoding="async">
+      <footer class="footer">
+        <a href="#">
+          <img class="footer__logo" src="/src/assets/images/logo.svg" 
+          alt="Home of C" width="55" height="55" loading="lazy" decoding="async">
         </a>
 
-        <nav aria-label="Footer">
-          <ul>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Press Kit</a></li>
-            <li><a href="#">Install Guide</a></li>
+        <nav class="footer__nav" aria-label="Footer">
+          <ul class="footer__link-list">
+            <li class="footer__link-faq"><a class="footer__link" href="#">FAQs</a></li>
+            <li class="footer__link-con"><a class="footer__link" href="#">Contact Us</a></li>
+            <li class="footer__link-pri"><a class="footer__link" href="#">Privacy Policy</a></li>
+            <li class="footer__link-pre"><a class="footer__link" href="#">Press Kit</a></li>
+            <li class="footer__link-ins"><a class="footer__link" href="#">Install Guide</a></li>
           </ul>
         </nav>
 
         <nav aria-label="Social">
-          <ul>
+          <ul class="footer__social-list">
             <li>
-              <a href="https://www.facebook.com" aria-label="C on Facebook" >
-                <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 
+              <a class="footer__social-link" href="https://www.facebook.com" aria-label="C on Facebook" >
+                <svg class="footer__social-icon" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 
                   24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 
                   2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 
                   0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" 
@@ -195,19 +196,19 @@
                 </svg>
               </a>
             </li>
-            <li>
-              <a href="https://www.x.com" aria-label="C on Twitter" >
-                <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M24 2.557a9.83 9.83 0 01-2.828.775A4.932 4.932 0 
-                  0023.337.608a9.864 9.864 0 01-3.127 1.195A4.916 4.916 0 0016.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 
-                  1.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 
-                  4.928 0 004.6 3.419A9.9 9.9 0 010 17.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 2.557z" 
+            <li class="footer__ls-item">
+              <a class="footer__social-link" href="https://www.x.com" aria-label="C on Twitter" >
+                <svg class="footer__social-icon" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M24 3.557a9.83 9.83 0 01-2.828.775A4.932 
+                  4.932 0 0023.337 1.608a9.864 9.864 0 01-3.127 1.195A4.916 4.916 0 0016.616 1.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 
+                  2.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 
+                  3.419A9.9 9.9 0 010 18.54a13.94 13.94 0 007.548 3.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 3.557z" 
                   fill="currentcolor"/>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com" aria-label="C on Instagram" >
-                <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 
+              <a class="footer__social-link" href="https://www.instagram.com" aria-label="C on Instagram" >
+                <svg class="footer__social-icon"  width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 
                   3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 
                   4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 
                   0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 
