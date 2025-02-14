@@ -8,9 +8,10 @@
 }
 
 .snippets {
-    margin-block-end: 56px;
+    margin-block-end: 55px;
 
     &__desc {
+        font-size: var(--fs-body-text-1);
         max-inline-size: 63ch;
     }
 
@@ -34,11 +35,16 @@
     }
 
     &__desc {
+        font-size: var(--fs-body-text-1);
         max-inline-size: 64ch;
     }
 }
 
 .workflow {
+
+    &__desc {
+        font-size: var(--fs-body-text-1);
+    }
 
     &__paper-img {
         inline-size: rem(44);
@@ -62,6 +68,8 @@
 
 .partners {
     margin-block-end: 39px;
+    container-type: inline-size;
+    container-name: partners;
 
     &__google-img {
         inline-size: rem(139);
@@ -90,6 +98,8 @@
 }
 
 .download {
+    container-type: inline-size;
+    container-name: buttons;
     
     &__desc {
         max-inline-size: 63ch;

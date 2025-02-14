@@ -11,10 +11,29 @@
     .button {
         padding-inline: 36px;
     }
+}
 
+@container partners (width > #{em(380)}) {
+    .partners {
+
+        &__list {
+            flex-direction: row;
+            justify-content: center;
+            column-gap: fluid(50, 95, 768, 1440);
+            flex-wrap: wrap;
+        }
+    }
 }
 
 @media (width > em(1200)) {
+
+    h2 {
+        letter-spacing: var(--ls-h2-desktop);
+    }
+
+    .main p {
+        letter-spacing: var(--ls-body-2);
+    }
 
     .header {
         margin-block-end: 99px;
@@ -27,4 +46,46 @@
         }
     }
 
+    .main {
+        padding-inline: 0px;
+    }
+
+    .snippets {
+        margin-block-end: 19px;
+
+        &__lists {
+            text-align: start;
+            flex-direction: row;
+            column-gap: fluid(20, 110, 1200, 1440);
+            transform: translateX(-147px);
+        }
+
+        &__feature {
+            align-items: start;
+
+        }
+    }
+
+    .access {
+        margin-block-end: 30px;
+    }
+
+    .workflow {
+        row-gap: 72px;
+        margin-block-end: 19px;
+
+        &__paper-tool {
+            row-gap: 40px;
+        }
+
+        &__tools {
+            flex-direction: row;
+            justify-content: center;
+            column-gap: 30px;
+        }
+
+        &__tool-content {
+            row-gap: 16px;
+        }
+    }
 }
