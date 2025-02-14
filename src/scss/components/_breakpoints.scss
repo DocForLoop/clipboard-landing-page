@@ -1,4 +1,30 @@
 @use '@scss/global/functions' as *;
 @use '@scss/global/mixins' as m;
 
-//1000
+@container buttons (width > #{em(703)}) {
+
+    .buttons {
+        flex-direction: row;
+        column-gap: 16px;
+    }
+
+    .button {
+        padding-inline: 36px;
+    }
+
+}
+
+@media (width > em(1200)) {
+
+    .header {
+        margin-block-end: 99px;
+
+        &__bg {
+            background-image: url(../assets/images/bg-header-desktop.png);
+        }
+        &__title {
+            letter-spacing: var(--ls-h1-desktop);
+        }
+    }
+
+}

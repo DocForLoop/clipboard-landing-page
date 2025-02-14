@@ -1,6 +1,17 @@
 @use '@scss/global/functions' as *;
 
+body {
+    display: grid;
+    place-items: center;
+}
+
+.body-container {
+    inline-size: 100%;
+    max-inline-size: rem(2150);
+}
+
 .header {
+
     &__bg {
         display: grid;
         place-content: center;
