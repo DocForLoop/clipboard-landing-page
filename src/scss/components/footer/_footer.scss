@@ -3,16 +3,21 @@
 
 .footer {
     text-align: center;
-    padding-block: 52px;
+    padding-block-start: 52px;
+    padding-block-end: 51px;
     background-color: var(--clr-footer-bg);
 
+    &__logo-link {
+        flex-shrink: 0;
+    }
+    
     &__logo {
         inline-size: rem(55);
         block-size: rem(55);
     }
 
     &__nav {
-        margin-block-end: 12px;
+        margin-block-end: 8px;
     }
 
     &__link-faq {

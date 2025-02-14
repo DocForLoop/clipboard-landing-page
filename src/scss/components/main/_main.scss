@@ -77,13 +77,13 @@
     }
 
     &__ibm-img {
-        inline-size: rem(122);
-        block-size: rem(40);
+        inline-size: rem(121);
+        block-size: rem(44);
     }
 
     &__ms-img {
         inline-size: rem(135);
-        block-size: rem(32);
+        block-size: rem(29);
     }
 
     &__hp-img {
@@ -103,5 +103,6 @@
     
     &__desc {
         max-inline-size: 63ch;
+        font-size: var(--fs-body-text-1);
     }
 }
