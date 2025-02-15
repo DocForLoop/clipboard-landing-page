@@ -20,8 +20,8 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ### Links
 
-- [Solution](https://www.frontendmentor.io/solutions/)
-- [Live Site](https://)
+- [Solution](https://www.frontendmentor.io/solutions/clipboard-landing-page-with-flexbox-and-grid-tR8RTBCAOY)
+- [Live Site](https://clipboard-landing-page-sand-six.vercel.app/)
 
 ## My process
 
