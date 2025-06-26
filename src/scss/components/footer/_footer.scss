@@ -65,4 +65,29 @@
         inline-size: rem(24);
         block-size: rem(24);
     }
+
+    &__attribution {
+        position: absolute;
+        inset-block-end: 0;
+        inset-inline: 0;
+        font-size: rem(12);
+        text-align: center;
+        color: var(--clr-text-primary);
+    }
+
+    &__attribution-link {
+        color: var(--clr-text-primary);
+        text-decoration: underline;
+        transition: color 0.3s;
+
+        &:hover,
+        &:focus-visible {
+            color: var(--clr-hover);
+        }
+
+        &:focus-visible {
+            outline: rem(3) solid var(--clr-text-primary);
+            outline-offset: rem(2);
+        }
+    }
 }
